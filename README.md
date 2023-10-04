@@ -784,7 +784,7 @@ Pass the appropriate flag to the train command:
   ```
 - Full weights finetune:
   ```bash
-  python -m axolotl.cli.inference examples/your_config.yml --base_model="./completed-model"
+  python -m axolotl.cli.inference examples/your_config.yml --completed_model="./completed-model"
   ```
 - Full weights finetune w/ a prompt from a text file:
   ```bash
